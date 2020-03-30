@@ -169,6 +169,8 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    android.frameworks.bufferhub@1.0.vendor \
+    libdng_sdk.vendor \
     libstdc++.vendor
 
 # Wifi
