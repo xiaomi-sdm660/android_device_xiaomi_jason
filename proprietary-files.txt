@@ -10,6 +10,7 @@ vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 
 # Camera
+lib/libminikin.so:vendor/lib/libminikin.so
 vendor/bin/remosaic_daemon
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libbase64.so
