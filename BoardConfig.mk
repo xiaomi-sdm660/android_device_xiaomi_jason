@@ -29,6 +29,9 @@ DEVICE_PATH := device/xiaomi/jason
 # Kernel
 TARGET_KERNEL_CONFIG := jason_defconfig
 TARGET_KERNEL_VERSION := 4.4
+TARGET_KERNEL_CLANG_COMPILE := false
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
+KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/aarch64/gcc-9/bin
 
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
