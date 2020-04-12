@@ -168,10 +168,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.force_on_dc=true
 
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
-
 # VNDK
 PRODUCT_PACKAGES += \
     android.frameworks.bufferhub@1.0.vendor \
