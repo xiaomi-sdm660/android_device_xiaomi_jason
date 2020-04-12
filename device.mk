@@ -49,6 +49,10 @@ PRODUCT_CHARACTERISTICS := nosdcard
 # Treble
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     libspkrprot
