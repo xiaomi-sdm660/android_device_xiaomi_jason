@@ -42,5 +42,7 @@ patchelf --remove-needed libandroid.so "$DEVICE_BLOB_ROOT"/vendor/lib/libVDClear
 patchelf --remove-needed libgui.so "$DEVICE_BLOB_ROOT"/vendor/lib/libmmcamera_ppeiscore.so
 patchelf --remove-needed libgui.so "$DEVICE_BLOB_ROOT"/vendor/lib/libmmcamera2_stats_modules.so
 patchelf --replace-needed libicuuc.so libicuuc-v28.so "$DEVICE_BLOB_ROOT"/vendor/lib/libMiCameraHal.so
+patchelf --replace-needed libminikin.so libminikip.so "$DEVICE_BLOB_ROOT"/vendor/lib/libMiCameraHal.so
+patchelf --replace-needed libminikin.so libminikip.so "$DEVICE_BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
 patchelf --set-soname "libicuuc.so" "$DEVICE_BLOB_ROOT"/vendor/lib/libicuuc-v28.so
 
