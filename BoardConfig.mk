@@ -26,6 +26,9 @@ include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/jason
 
+# Platform
+BOARD_VENDOR_PLATFORM := xiaomi-sdm660
+
 # Kernel
 TARGET_KERNEL_CONFIG := jason_defconfig
 TARGET_KERNEL_VERSION := 4.4
