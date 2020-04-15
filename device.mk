@@ -83,7 +83,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.feature.cac=1 \
     persist.vendor.camera.fovc.enable=1 \
     persist.vendor.dualcam.lpm.enable=1 \
-    persist.vendor.dualcam.defer.enable=1
+    persist.vendor.dualcam.defer.enable=1 \
+    persist.vendor.camera.preview.ubwc=0
 
 # ConfigPanel
 PRODUCT_PACKAGES += \
