@@ -18,10 +18,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application title -->
-    <string name="device_settings_app_name">Extra Settings</string>
+    <string name="device_settings_app_name">Device Settings</string>
     <string name="summary_device_settings">Device specific extra settings</string>
 
     <!-- Button settings -->
-    <string name="button_panel_title">Extra Settings</string>
+    <string name="button_panel_title">Device Settings</string>
 
 </resources>
