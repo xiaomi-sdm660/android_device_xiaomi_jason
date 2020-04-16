@@ -98,4 +98,8 @@
     <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">64</integer>
 
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+         autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">false</bool>
+
 </resources>
