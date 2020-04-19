@@ -62,11 +62,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/recovery.fstab
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_jason
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
-# SELinux
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-03-01
 
