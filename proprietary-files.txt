@@ -421,9 +421,6 @@ vendor/bin/nqnfcinfo
 # NFC firmware
 vendor/lib/libpn553_fw.so
 
-# Power-off charging daemon
--sbin/charger:sbin/chargeonlymode;rootfs|97c58ee34cd3b7aef90d6b0988837d84734a933d
-
 # QMI
 vendor/lib64/libqminvapi.so
 
@@ -451,10 +448,8 @@ vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
 # Thermal
-vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
 
 # Thermal configuration
 vendor/etc/thermal-engine-sdm660-high.conf
